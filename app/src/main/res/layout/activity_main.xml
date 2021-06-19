@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:text="WELCOME"
+        android:textSize="45sp"
+        android:textStyle="bold"
+
+        /><TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+
+    android:text="TO PASSNOTE LITE"
+    android:textSize="30sp"
+    android:textStyle="normal"
+    />
+
+
+    <Button
+
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="302dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:textSize="30sp"
+        android:id="@+id/passmanager"
+        android:text="Manage PAssword" />
+    <Button
+
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="302dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:id="@+id/notesmanager"
+        android:textSize="30sp"
+        android:text="Manage Magical Notes" />
+
+
+
+
+
+</LinearLayout>
